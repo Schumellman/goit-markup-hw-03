@@ -73,9 +73,6 @@ body {
     text-transform: uppercase;
     color: var(--color-iris);
 }
-.inter {
-    padding: 24px 0
-}
 
 /* Navigation on studio */
 .header-nav-list {
@@ -364,6 +361,7 @@ body {
 .btn-portfolio:focus {
     border: 1px solid transparent;
 }
+/* Section with cards */
 .our-works {
     padding: 96px 0 120px;
 }
@@ -380,7 +378,6 @@ body {
     margin-bottom: 0;
 }
 .aplication {
-    padding: 32px 16px;
     border: 1px solid var(--light-grayish-blue);
     border-top: none;
 
@@ -409,9 +406,9 @@ body {
 }
 .works .items {
     width: calc((100% - 48px) / 3);
-    margin-right: 24px;
     margin-bottom: 48px;
 }
+/* Footer portfolio */
 
 .footer-desc{
     font-size: 16px;
