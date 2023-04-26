@@ -206,20 +206,20 @@ body {
 }
 
 /* Section 2 */
-/* .second-section {
+.second-section {
     padding-bottom: 120px;
-} */
+}
 .list-second-sec {
     display: flex;
     align-items: center;
-    /* gap: 24px; */
+    gap: 24px;
 }
-.second-sec-item:not(:last-child) {
+/* .second-sec-item:not(:last-child) {
     margin-right: 25px;
-}
-.container-second {
+} */
+/* .container-second {
     padding-bottom: 120px;
-}
+} */
 .second-sec {
     margin-bottom: 72px;
 
@@ -234,6 +234,8 @@ body {
 
 /* Section 3 */
 .third-sec {
+    padding: 120px 0;
+    
     background: var(--color-cloud);
 }
 .list-third-sec {
